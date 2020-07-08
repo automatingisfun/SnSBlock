@@ -86,5 +86,5 @@ while not QUIT:
         # Click at the given position to ensure that the mouse move event is executed.
         win32api.SetCursorPos((x, y))
         win32api.mouse_event(win32con.MOUSEEVENTF_LEFTDOWN,x,y,0,0)
-    else:
-        print("empty...")
+    #else:
+    #    print("empty...")
